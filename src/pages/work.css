@@ -1,0 +1,26 @@
+@media screen {
+    .body {
+        overflow-x: hidden;
+    }
+    
+    .header {
+        position: fixed;
+        width: 100vw;
+        height: 125px;
+        background-color:#FFF7E9;
+        font-family: Adobe Devanagari;
+        overflow-x: hidden;
+    }
+    .introSummary {
+        background-color: #FFF7E9;
+        font-family: PMingLiU-ExtB;
+        height: 500px;
+        overflow-x: hidden;
+    }
+    .aboutMe {
+        background-color: #FFF7E9;
+        position: relative;
+        width: 100vw;
+    }
+    
+}
