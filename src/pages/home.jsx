@@ -6,6 +6,7 @@ import persImage from '../imgs/chiPhoto.JPG';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import Header from '../components/header'
 
 export default class Home extends Component {
     constructor(props){
@@ -30,20 +31,7 @@ render(){
     return(
         <div className='body' >
             
-            <div className='header'>
-                <Row style={{overflowX:'hidden', position:'sticky'}}>
-                    <Col md = {3}>
-                        <img src={Logo} alt='logo' style={{marginLeft:'-35%',width:'40%', height:'100%'}} href='/home'/>
-                    </Col>
-                    <Col md={6}></Col>
-                    <Col md = {1} style={{marginTop:'30px'}}>  
-                        <Nav.Link href='/work' className='nav_link'>WORK</Nav.Link>
-                    </Col>
-                    <Col md = {1} style={{marginTop:'30px'}}>
-                        <Nav.Link href='/play' className='nav_link'>PLAY</Nav.Link>
-                    </Col>
-                </Row>  
-            </div>
+            <Header></Header>
              
 
             <div className='introSummary'>
@@ -87,6 +75,8 @@ render(){
                         </Col>
                     </Row>  
             </div>
+
+
         </div>
     )
 }

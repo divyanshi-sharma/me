@@ -1,0 +1,8 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 125px;
+    background-color:#FFF7E9;
+    font-family: Adobe Devanagari;
+    overflow-x: hidden;
+}
