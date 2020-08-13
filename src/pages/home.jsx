@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import {Nav} from 'react-bootstrap';
-import { Route, Link, BrowserRouter as Router, NavLink } from 'react-router-dom'
-import Play from './play'
 import './home.css'
 import  Logo from '../imgs/Logo.png';
 import persImage from '../imgs/chiPhoto.JPG';
@@ -35,7 +33,7 @@ render(){
             <div className='header'>
                 <Row style={{overflowX:'hidden', position:'sticky'}}>
                     <Col md = {3}>
-                        <img src={Logo} alt='header' style={{marginLeft:'-35%',width:'40%', height:'100%'}} href='/home'/>
+                        <img src={Logo} alt='logo' style={{marginLeft:'-35%',width:'40%', height:'100%'}} href='/home'/>
                     </Col>
                     <Col md={6}></Col>
                     <Col md = {1} style={{marginTop:'30px'}}>  
