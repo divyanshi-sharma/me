@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import {Nav} from 'react-bootstrap';
+import { Route, Link, BrowserRouter as Router, NavLink } from 'react-router-dom'
+import Play from './play'
 import './home.css'
 import  Logo from '../imgs/Logo.png';
 import persImage from '../imgs/chiPhoto.JPG';
@@ -11,8 +13,9 @@ export default class Home extends Component {
     constructor(props){
         super(props)
         this.state = {
-            display: true, 
+            display: false, 
             autoplay: false,
+            bgColor: '#FFCAB9',
         }
     }
    
@@ -24,35 +27,34 @@ export default class Home extends Component {
             this.setState({display:true})
         }
     }
-    
 
-render(){
-    window.addEventListener('scroll', this.handleScroll);
+render(){   
     return(
         <div className='body' >
             
             <div className='header'>
-                <Row style={{overflowX:'hidden'}}>
+                <Row style={{overflowX:'hidden', position:'sticky'}}>
                     <Col md = {3}>
-                        <img src={Logo} alt='header' style={{width:'40%', height:'100%'}} href='/'/>
+                        <img src={Logo} alt='header' style={{marginLeft:'-35%',width:'40%', height:'100%'}} href='/home'/>
                     </Col>
                     <Col md={6}></Col>
-                    <Col md = {1} style={{marginTop:'50px'}}>  
-                        <Nav.Link to='/work' className='nav_link'>WORK</Nav.Link>
+                    <Col md = {1} style={{marginTop:'30px'}}>  
+                        <Nav.Link href='/work' className='nav_link'>WORK</Nav.Link>
                     </Col>
-                    <Col md = {1} style={{marginTop:'50px'}}>
-                    <Nav.Link to='/' className='nav_link'>PLAY</Nav.Link>
+                    <Col md = {1} style={{marginTop:'30px'}}>
+                        <Nav.Link href='/play' className='nav_link'>PLAY</Nav.Link>
                     </Col>
                 </Row>  
             </div>
              
+
             <div className='introSummary'>
                 <br></br><br></br><br></br>
-                <p style={{marginLeft:'5%', marginTop: '5%', fontSize:'50px', fontWeight:'lighter', position:'fixed'}}>
+                <p style={{marginLeft:'5%', marginTop: '5%', fontSize:'50px', textAlign: 'left', fontWeight:'lighter', position:'fixed'}}>
                     Hi, I'm Divya!
                     </p>
                     <br></br><br></br><br></br><br></br>
-                <p style={{marginLeft:'5%', marginTop: '5%', fontSize:'25px', fontWeight:'lighter', fontFamily: 'Niveau Grotesk', position:'fixed'}}>
+                <p style={{marginLeft:'5%', marginTop: '5%', fontSize:'25px', textAlign: 'left', fontWeight:'lighter', fontFamily: 'Niveau Grotesk', position:'fixed'}}>
                 Third year student @ Northwestern
                 <br></br>
                 Computer Science Major, Legal Studies Minor, Segal Design Certificate
@@ -62,15 +64,18 @@ render(){
                 Passionate about tech for social impact
                 <br></br>
                 <br></br>
-                <Button className='connectButton' href='/work'>CONNECT WITH ME</Button>
-                </p>
-                
+                <Button className='connectButton'
+                        style={{backgroundColor: this.state.bgColor}}
+                        href='/play'>CONNECT WITH ME
+                </Button>
+                </p>  
             </div>
+
 
             <div className='aboutMe' style={{overflowX:'hidden'}}>
                     <Row style={{overflowX:'hidden'}}>
                         <Col md = {6} style={{overflowX:'hidden'}}>
-                            <img src={persImage} alt='personalImage' style={{marginLeft:'80px', marginTop:'30px',width:'55%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                            <img src={persImage} alt='personalImage' style={{marginTop:'30px',width:'55%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col md = {5} style={{overflowX:'hidden',marginTop:'4%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
@@ -84,11 +89,7 @@ render(){
                         </Col>
                     </Row>  
             </div>
-
-        
         </div>
-        
-        
     )
 }
 

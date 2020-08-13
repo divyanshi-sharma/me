@@ -1,6 +1,14 @@
-import React, { Component, useRef, useEffect } from 'react'
+import React, { Component} from 'react'
 import './play.css'
-import  Logo from '../imgs/Logo.png';
-import persImage from '../imgs/personalimage.png';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
+class Play extends Component {
+    render() {
+        return (
+            <div >
+                <h1>PLAY</h1>
+                <p>in progress</p>
+            </div>
+        )
+    }
+}
+export default Play;

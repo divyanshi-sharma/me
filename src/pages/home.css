@@ -29,14 +29,14 @@
     }
     
 }
-a.nav_link:link{
-    color:darkgray;
+a.nav_link{
+    color:#000;
     font-size: 25px;
-    
 }
 a.nav_link:hover {
     color:#9C3940;
-    padding-top: 10px;
+    text-decoration: none;
+    padding-top: 5px;
   }
 a.connectButton {
     background-color:#FFCAB9;
@@ -44,8 +44,13 @@ a.connectButton {
     color: #FFFFFF;
   }
 a.connectButton:hover {
-    background-color: #9C3940;
+    background-color: #9C3940 !important;
     color: white;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 8px 0 rgba(0,0,0,0.19);
+    border:none;
   }
+a.connectButton:active {
+    color: #9C3940;
+    border:none;
+}
 
