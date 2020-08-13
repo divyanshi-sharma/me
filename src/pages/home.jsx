@@ -1,9 +1,11 @@
-import React, { Component, useRef, useEffect } from 'react'
+import React, { Component } from 'react'
+import {Nav} from 'react-bootstrap';
 import './home.css'
 import  Logo from '../imgs/Logo.png';
-import persImage from '../imgs/personalimage.png';
+import persImage from '../imgs/chiPhoto.JPG';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 
 export default class Home extends Component {
     constructor(props){
@@ -36,10 +38,10 @@ render(){
                     </Col>
                     <Col md={6}></Col>
                     <Col md = {1} style={{marginTop:'50px'}}>  
-                        <a href='/work' style={{color:'grey', fontSize:'25px'}}>WORK</a>
+                        <Nav.Link to='/work' className='nav_link'>WORK</Nav.Link>
                     </Col>
                     <Col md = {1} style={{marginTop:'50px'}}>
-                        <a href='/' style={{color:'grey', fontSize:'25px'}}>PLAY</a>
+                    <Nav.Link to='/' className='nav_link'>PLAY</Nav.Link>
                     </Col>
                 </Row>  
             </div>
@@ -58,19 +60,23 @@ render(){
                 Front-end Developer and Product Designer, with a focus in UX
                 <br></br>
                 Passionate about tech for social impact
+                <br></br>
+                <br></br>
+                <Button className='connectButton' href='/work'>CONNECT WITH ME</Button>
                 </p>
+                
             </div>
 
             <div className='aboutMe' style={{overflowX:'hidden'}}>
                     <Row style={{overflowX:'hidden'}}>
                         <Col md = {6} style={{overflowX:'hidden'}}>
-                            <img src={persImage} alt='personalImage' style={{marginLeft:'80px', marginTop:'30px',width:'55%', height:'90%'}}/>
+                            <img src={persImage} alt='personalImage' style={{marginLeft:'80px', marginTop:'30px',width:'55%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
-                        <Col md = {5} style={{overflowX:'hidden',marginTop:'10px'}}>
+                        <Col md = {5} style={{overflowX:'hidden',marginTop:'4%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
                                 ABOUT ME
                             </h1>
-                            <p style={{fontSize:'25px', fontWeight:'lighter', fontFamily: 'Niveau Grotesk', textAlign: 'justify', overflowX:'hidden'}}>
+                            <p style={{fontSize:'20px', fontWeight:'lighter', fontFamily: 'Niveau Grotesk', textAlign: 'justify', overflowX:'hidden'}}>
                                 My full name is Divyanshi, but I go by Divya! I am deeply interested in using tech to make a social impact, and making sure tech is accessible for everyone. This has led me to UX design, frontend dev., and product design so that I can focus humans in designs. Head over to "Work" to see what I've been up to!
                                 <br></br>
                                 In my free time, I love painting and reading! Check out "Play" to see some of my paintings and recent reads.
