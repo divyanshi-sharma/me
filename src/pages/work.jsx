@@ -25,7 +25,7 @@ class Work extends Component {
             
                 <Container className='workExamples' style={{position:'relative', marginTop:'275px'}}>
                     <h1 className='uxTitle' style={{position:'relative'}}>UX DESIGN</h1>
-                    <Row style={{marginTop:'15px'}}>
+                    <Row style={{marginTop:'10px'}}>
                         <Col xs={8} style={{marginLeft:'75px'}}>
                             <img src={Lura} alt='LuraHomepage' style={{width:'100%', height:'100%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
@@ -45,13 +45,13 @@ class Work extends Component {
                     </Row>
                     
                     <h1 className='frontendTitle' style={{position:'relative'}}>FRONTEND DEV</h1>
-                    <Row>
+                    <Row style={{marginBottom:'50px'}}>
                         <Col xs={8} style={{marginLeft:'75px'}}>
                             <img src={FFH} alt='FarFromHome' style={{width:'100%', height:'100%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
                             <h4 className='exTitle' >FAR FROM HOME</h4>
-                            <p style={{textAlign:'center'}}>Evanston Events is an app that was created for Google Developer Student Clubs. It serves as a place for students to find out about events in the area, and clubs and local businesses to advertise their events.</p>
+                            <p style={{textAlign:'center'}}>Far From Home is a website made for COMP_SCI 330: Human Computer Interaction. It helps homesick freshmen feel better at school and stay connected to loved ones. </p>
                         </Col>
                     </Row>
                     
@@ -62,8 +62,3 @@ class Work extends Component {
 }
 export default Work;
 
-/*<Row style={{marginTop:'50px'}}>
-<Col md = {6}>
-<img src={Lura} alt='LuraHomepage' style={{ marginLeft:'30px', width:'100%', height:'100%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
-</Col>
-</Row> */

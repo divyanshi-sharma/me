@@ -1,0 +1,17 @@
+@media screen {
+    .body{
+        background-color:#FFF7E9;
+        width: 100vw;
+        height: 100vw;
+        overflow-x: hidden;
+        position: fixed;
+    }
+    .bodyHeader {
+        font-family: PMingLiU-ExtB;
+        background-color:#FFF7E9;
+        font-size: 50px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
