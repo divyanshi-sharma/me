@@ -18,7 +18,7 @@ export default class Header extends Component {
 render(){   
     return(          
             <div className='header'>
-                <Row style={{overflowX:'hidden', position:'sticky'}}>
+                <Row style={{overflowX:'hidden'}}>
                     <Col md = {3}>
                         <img src={Logo} alt='logo' style={{marginLeft:'-35%',width:'40%', height:'100%'}} href='/home'/>
                     </Col>

@@ -1,26 +1,51 @@
 @media screen {
-    .body {
-        overflow-x: hidden;
-    }
-    
-    .header {
-        position: fixed;
-        width: 100vw;
-        height: 125px;
+    .body{
         background-color:#FFF7E9;
-        font-family: Adobe Devanagari;
-        overflow-x: hidden;
-    }
-    .introSummary {
-        background-color: #FFF7E9;
-        font-family: PMingLiU-ExtB;
-        height: 500px;
-        overflow-x: hidden;
-    }
-    .aboutMe {
-        background-color: #FFF7E9;
-        position: relative;
         width: 100vw;
+    }
+    .bodyHeader {
+        font-family: PMingLiU-ExtB;
+        background-color:#FFF7E9;
+        font-size: 50px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        text-align: center;
+        width:100vw;
+    }
+    .bodyIntro {
+        font-family: Niveau Grotesk;
+        text-align: center;
+        font-size: 20px;
+        font-weight: normal;
+        width:100vw;
+        background-color:#FFF7E9;
+    }
+    .workExamples {
+        background-color:#FFF7E9;
+        font-family: Niveau Grotesk;
+        font-size: 20px;
+        text-align: left;
+        overflow: hidden;
+    }
+    .uxTitle {
+        z-index: 1;
+        position: relative;
+        margin-left: 30px;
+        background-color: #FFF7E9;
+        text-align: left;
+        font-family: Niveau Grotesk;
+        font-size: 25px;
+    }
+    .frontendTitle {
+        z-index: 1;
+        position: relative;
+        background-color: #FFF7E9;
+        text-align: left;
+        font-family: Niveau Grotesk;
+        font-size: 25px;
+    }
+    .exTitle {
+        text-align: center;
     }
     
 }

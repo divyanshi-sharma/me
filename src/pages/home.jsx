@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Nav} from 'react-bootstrap';
 import './home.css'
 import  Logo from '../imgs/Logo.png';
-import persImage from '../imgs/chiPhoto.JPG';
+import persImage from '../imgs/pinkishPhoto.JPG';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
@@ -29,12 +29,11 @@ export default class Home extends Component {
 
 render(){   
     return(
-        <div className='body' >
+        <div className='bodyy'>
             
             <Header></Header>
              
-
-            <div className='introSummary'>
+            <div className='introSummary' style={{overflowX:'hidden'}}>
                 <br></br><br></br><br></br>
                 <p style={{marginLeft:'5%', marginTop: '5%', fontSize:'50px', textAlign: 'left', fontWeight:'lighter', position:'fixed'}}>
                     Hi, I'm Divya!
@@ -58,12 +57,12 @@ render(){
             </div>
 
 
-            <div className='aboutMe' style={{overflowX:'hidden'}}>
-                    <Row style={{overflowX:'hidden'}}>
-                        <Col md = {6} style={{overflowX:'hidden'}}>
-                            <img src={persImage} alt='personalImage' style={{marginTop:'30px',width:'55%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+            <div className='aboutMe' style={{position:'absolute', overflowX:'hidden'}}>
+                    <Row>
+                        <Col xs = {6} style={{overflow:'hidden'}}>
+                            <img src={persImage} alt='personalImage' style={{marginTop:'30px',width:'55%', height:'90%', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
-                        <Col md = {5} style={{overflowX:'hidden',marginTop:'4%'}}>
+                        <Col xs = {5} style={{overflow:'hidden',marginTop:'4%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
                                 ABOUT ME
                             </h1>
