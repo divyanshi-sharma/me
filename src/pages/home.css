@@ -32,7 +32,6 @@ a.nav_link{
 a.nav_link:hover {
     color:#9C3940;
     text-decoration: none;
-    padding-top: 5px;
   }
 a.connectButton {
     background-color:#FFCAB9;

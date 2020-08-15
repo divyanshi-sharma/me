@@ -43,8 +43,14 @@
         font-family: Niveau Grotesk;
         font-size: 25px;
     }
-    .exTitle {
+    a.exTitle {
         text-align: center;
+        color: black;
+    }
+    a.exTitle:hover {
+        text-align: center;
+        color:#9C3940;
+        font-weight: bolder;
     }
     
 }

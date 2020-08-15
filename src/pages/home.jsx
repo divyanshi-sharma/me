@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import {Nav} from 'react-bootstrap';
 import './home.css'
-import  Logo from '../imgs/Logo.png';
-import persImage from '../imgs/pinkishPhoto.JPG';
+import persImage from '../imgs/pinkLakePhoto.JPG';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
@@ -48,7 +46,6 @@ render(){
                 <br></br>
                 Passionate about tech for social impact
                 <br></br>
-                P.S. This website is currently under construction, so apologies for the incompleteness!
                 <br></br>
                 <Button className='connectButton'
                         style={{backgroundColor: this.state.bgColor}}

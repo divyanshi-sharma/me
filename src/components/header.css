@@ -8,3 +8,12 @@
     font-family: Adobe Devanagari;
     z-index: 2;
 }
+a.nav_link{
+    color:#000;
+    font-size: 25px;
+}
+a.nav_link:hover {
+    color:#9C3940;
+    text-decoration: none;
+    font-weight: bolder;
+  }

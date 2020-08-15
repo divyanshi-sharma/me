@@ -6,6 +6,7 @@ import Events from '../imgs/eventsImg.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import {Nav} from 'react-bootstrap';
 import './work.css'
 
 class Work extends Component {
@@ -30,7 +31,7 @@ class Work extends Component {
                             <img src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <h4 className='exTitle' href='/home'>LURA</h4>
+                            <Nav.Link className='exTitle' href='/home'>LURA</Nav.Link>
                             <p style={{textAlign:'center'}}>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</p>
                         </Col>
                     </Row>
@@ -39,7 +40,7 @@ class Work extends Component {
                             <img src={Events} alt='eventsHome' style={{width:'100%', height:'90%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <h4 className='exTitle' style={{marginTop:'50px'}}>EVENTS</h4>
+                            <Nav.Link className='exTitle' style={{marginTop:'50px'}}>EVENTS</Nav.Link>
                             <p style={{textAlign:'center'}}>Evanston Events is an app that was created for Google Developer Student Clubs. It serves as a place for students to find out about events in the area, and clubs and local businesses to advertise their events.</p>
                         </Col>
                     </Row>
@@ -50,7 +51,7 @@ class Work extends Component {
                             <img src={FFH} alt='FarFromHome' style={{width:'100%', height:'100%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <h4 className='exTitle' >FAR FROM HOME</h4>
+                            <Nav.Link className='exTitle' >FAR FROM HOME</Nav.Link>
                             <p style={{textAlign:'center'}}>Far From Home is a website made for COMP_SCI 330: Human Computer Interaction. It helps homesick freshmen feel better at school and stay connected to loved ones. </p>
                         </Col>
                     </Row>
