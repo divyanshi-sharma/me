@@ -48,6 +48,7 @@ render(){
                 <br></br>
                 Passionate about tech for social impact
                 <br></br>
+                P.S. This website is currently under construction, so apologies for the incompleteness!
                 <br></br>
                 <Button className='connectButton'
                         style={{backgroundColor: this.state.bgColor}}

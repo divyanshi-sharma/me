@@ -18,7 +18,7 @@
 
     .aboutMe {
         background-color: #FFF7E9;
-        position: relative;
+        position: absolute;
         overflow: hidden;
         width: 100vw;
         overflow-x: hidden;

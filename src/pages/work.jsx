@@ -27,10 +27,10 @@ class Work extends Component {
                     <h1 className='uxTitle' style={{position:'relative'}}>UX DESIGN</h1>
                     <Row style={{marginTop:'10px'}}>
                         <Col xs={8} style={{marginLeft:'75px'}}>
-                            <img src={Lura} alt='LuraHomepage' style={{width:'100%', height:'100%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                            <img src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <h4 className='exTitle'>LURA</h4>
+                            <h4 className='exTitle' href='/home'>LURA</h4>
                             <p style={{textAlign:'center'}}>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</p>
                         </Col>
                     </Row>
