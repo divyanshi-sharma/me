@@ -5,7 +5,8 @@ import './App.css';
 import Home from './pages/home';
 import Play from './pages/play';
 import Work from './pages/work';
-
+import Lura from './pages/lura';
+import Events from './pages/events';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route exact path='/home' component={Home}/>
         <Route exact path='/play' component={Play}/>
         <Route exact path='/work' component={Work}/>
+        <Route exact path='/lura' component={Lura}/>
+        <Route exact path='/events' component={Events}/>
       </Switch>
     </div>
     </Router>

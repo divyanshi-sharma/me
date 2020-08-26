@@ -1,19 +1,27 @@
-.header {
-    position: fixed;
-    top:0px;
-    overflow-x: hidden;
-    width: 100vw;
-    height: 125px;
-    background-color:#FFF7E9;
-    font-family: Adobe Devanagari;
-    z-index: 2;
+@media screen and (min-width: 801px) {
+    .header {
+        position: fixed;
+        top:0px;
+        overflow-x: hidden;
+        width: 100vw;
+        height: 10vw;
+        background-color:#FFF7E9;
+        font-family: Adobe Devanagari;
+        z-index: 2;
+    }
+    a.nav_link{
+        color:#000;
+        font-size: 25px;
+    }
+    a.nav_link:hover {
+        color:#9C3940;
+        text-decoration: none;
+        font-weight: bolder;
+      }
 }
-a.nav_link{
-    color:#000;
-    font-size: 25px;
+
+@media screen and (max-width: 801px) {
+    .header {
+        display: none;
+    }
 }
-a.nav_link:hover {
-    color:#9C3940;
-    text-decoration: none;
-    font-weight: bolder;
-  }

@@ -14,7 +14,7 @@ class Work extends Component {
         return (
             <div className='body'>
                 <Header></Header>
-                <div className='bodyHeader' style={{position:'fixed',top:'125px'}}>
+                <div className='bodyHeader' style={{position:'fixed'}}>
                     <p>WORK</p>
                 </div>
                 <div className='bodyIntro' style={{position:'fixed', top:'200px'}}>
@@ -24,14 +24,20 @@ class Work extends Component {
                     </p>
                 </div>
             
-                <Container className='workExamples' style={{position:'relative', marginTop:'275px'}}>
-                    <h1 className='uxTitle' style={{position:'relative'}}>UX DESIGN</h1>
+                <Container className='workExamples' style={{position:'relative', marginTop:'25vw'}}>
+                    <h1 className='uxTitle' style={{position:'relative'}}>UX AND DESIGN</h1>
+                    <br></br>
                     <Row style={{marginTop:'10px'}}>
                         <Col xs={8} style={{marginLeft:'75px'}}>
-                            <img src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                            <div className='lura'>
+                                <img className='image' src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                                <div className="middle">
+                                    <div className="text">LURA</div>
+                                </div>
+                            </div>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' href='/home'>LURA</Nav.Link>
+                            <Nav.Link className='exTitle' href='/lura'>LURA</Nav.Link>
                             <p style={{textAlign:'center'}}>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</p>
                         </Col>
                     </Row>
@@ -40,12 +46,13 @@ class Work extends Component {
                             <img src={Events} alt='eventsHome' style={{width:'100%', height:'90%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' style={{marginTop:'50px'}}>EVENTS</Nav.Link>
+                            <Nav.Link className='exTitle' href='/events' style={{marginTop:'4vw'}}>EVENTS</Nav.Link>
                             <p style={{textAlign:'center'}}>Evanston Events is an app that was created for Google Developer Student Clubs. It serves as a place for students to find out about events in the area, and clubs and local businesses to advertise their events.</p>
                         </Col>
                     </Row>
-                    
+                    <br></br>
                     <h1 className='frontendTitle' style={{position:'relative'}}>FRONTEND DEV</h1>
+                    <br></br>
                     <Row style={{marginBottom:'50px'}}>
                         <Col xs={8} style={{marginLeft:'75px'}}>
                             <img src={FFH} alt='FarFromHome' style={{width:'100%', height:'100%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
@@ -54,9 +61,9 @@ class Work extends Component {
                             <Nav.Link className='exTitle' >FAR FROM HOME</Nav.Link>
                             <p style={{textAlign:'center'}}>Far From Home is a website made for COMP_SCI 330: Human Computer Interaction. It helps homesick freshmen feel better at school and stay connected to loved ones. </p>
                         </Col>
-                    </Row>
-                    
+                    </Row>                    
                 </Container>
+                <br></br>
             </div>
         )
     }

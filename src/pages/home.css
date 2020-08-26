@@ -41,7 +41,7 @@ a.connectButton {
 a.connectButton:hover {
     background-color: #9C3940 !important;
     color: white;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 8px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1), 0 8px 8px 0 rgba(0,0,0,0.1);
     border:none;
   }
 a.connectButton:active {
