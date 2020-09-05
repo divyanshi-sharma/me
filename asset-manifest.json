@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.2656ebe9.chunk.css",
-    "main.js": "/me/static/js/main.9cb6d4c1.chunk.js",
-    "main.js.map": "/me/static/js/main.9cb6d4c1.chunk.js.map",
-    "runtime-main.js": "/me/static/js/runtime-main.8e474a00.js",
-    "runtime-main.js.map": "/me/static/js/runtime-main.8e474a00.js.map",
-    "static/css/2.f3cffc9e.chunk.css": "/me/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.ab2a3fc0.chunk.js": "/me/static/js/2.ab2a3fc0.chunk.js",
-    "static/js/2.ab2a3fc0.chunk.js.map": "/me/static/js/2.ab2a3fc0.chunk.js.map",
-    "index.html": "/me/index.html",
-    "precache-manifest.07cb81397a871fae24d7be92a31fdde1.js": "/me/precache-manifest.07cb81397a871fae24d7be92a31fdde1.js",
-    "service-worker.js": "/me/service-worker.js",
-    "static/css/2.f3cffc9e.chunk.css.map": "/me/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.2656ebe9.chunk.css.map": "/me/static/css/main.2656ebe9.chunk.css.map",
-    "static/js/2.ab2a3fc0.chunk.js.LICENSE.txt": "/me/static/js/2.ab2a3fc0.chunk.js.LICENSE.txt",
-    "static/media/eventsImg.png": "/me/static/media/eventsImg.31c49332.png",
-    "static/media/farFromHomeImg.png": "/me/static/media/farFromHomeImg.10d6ff3a.png",
-    "static/media/luraImg.png": "/me/static/media/luraImg.eb368bd4.png",
-    "static/media/pinkLakePhoto.JPG": "/me/static/media/pinkLakePhoto.b183a55f.JPG",
-    "static/media/selflogo2.png": "/me/static/media/selflogo2.b305eab8.png"
+    "main.css": "/static/css/main.2656ebe9.chunk.css",
+    "main.js": "/static/js/main.312f3e87.chunk.js",
+    "main.js.map": "/static/js/main.312f3e87.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.60ded422.js",
+    "runtime-main.js.map": "/static/js/runtime-main.60ded422.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.ab2a3fc0.chunk.js": "/static/js/2.ab2a3fc0.chunk.js",
+    "static/js/2.ab2a3fc0.chunk.js.map": "/static/js/2.ab2a3fc0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.37d9b023a270e9dccde5bebe79ecaff3.js": "/precache-manifest.37d9b023a270e9dccde5bebe79ecaff3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.2656ebe9.chunk.css.map": "/static/css/main.2656ebe9.chunk.css.map",
+    "static/js/2.ab2a3fc0.chunk.js.LICENSE.txt": "/static/js/2.ab2a3fc0.chunk.js.LICENSE.txt",
+    "static/media/eventsImg.png": "/static/media/eventsImg.31c49332.png",
+    "static/media/farFromHomeImg.png": "/static/media/farFromHomeImg.10d6ff3a.png",
+    "static/media/luraImg.png": "/static/media/luraImg.eb368bd4.png",
+    "static/media/pinkLakePhoto.JPG": "/static/media/pinkLakePhoto.b183a55f.JPG",
+    "static/media/selflogo2.png": "/static/media/selflogo2.b305eab8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e474a00.js",
+    "static/js/runtime-main.60ded422.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.ab2a3fc0.chunk.js",
     "static/css/main.2656ebe9.chunk.css",
-    "static/js/main.9cb6d4c1.chunk.js"
+    "static/js/main.312f3e87.chunk.js"
   ]
 }
