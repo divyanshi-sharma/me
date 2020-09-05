@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 import Home from './pages/home';
 import Play from './pages/play';
@@ -10,9 +10,10 @@ import Events from './pages/events';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
     <div className="App">
       <Switch>
+      <Route exact path='/' component={Home}/>
         <Route exact path='/me' component={Home}/>
         <Route exact path='/home' component={Home}/>
         <Route exact path='/play' component={Play}/>
@@ -21,7 +22,7 @@ function App() {
         <Route exact path='/events' component={Events}/>
       </Switch>
     </div>
-    </Router>
+    </HashRouter>
   );
 }
 
