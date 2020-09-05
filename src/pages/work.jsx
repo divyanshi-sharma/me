@@ -27,13 +27,10 @@ class Work extends Component {
                 <Container className='workExamples' style={{position:'relative', marginTop:'25vw'}}>
                     <h1 className='uxTitle' style={{position:'relative'}}>UX AND DESIGN</h1>
                     <br></br>
-                    <Row style={{marginTop:'10px'}}>
+                    <Row >
                         <Col xs={8} style={{marginLeft:'75px'}}>
                             <div className='lura'>
-                                <img className='image' src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
-                                <div className="middle">
-                                    <div className="text">LURA</div>
-                                </div>
+                                <a href='#/lura'><img className='image' src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
                             </div>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>

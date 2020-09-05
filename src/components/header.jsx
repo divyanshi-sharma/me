@@ -23,10 +23,10 @@ render(){
                         <a href='#/home'><img src={Logo} alt='logo' style={{marginLeft:'-35%',width:'35%', height:'100%'}}/></a>
                     </Col>
                     <Col md={6}></Col>
-                    <Col md = {1} style={{marginTop:'3vw'}}>  
+                    <Col md = {1} style={{marginTop:'3vw', marginLeft:'75vw', position:'fixed'}}>  
                         <Nav.Link href='#/work' className='nav_link'>WORK</Nav.Link>
                     </Col>
-                    <Col md = {1} style={{marginTop:'3vw'}}>
+                    <Col md = {1} style={{marginTop:'3vw', marginLeft:'85vw', position:'fixed'}}>
                         <Nav.Link href='#/play' className='nav_link'>PLAY</Nav.Link>
                     </Col>
                 </Row>  

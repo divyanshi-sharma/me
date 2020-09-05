@@ -10,14 +10,22 @@
         z-index: 2;
     }
     a.nav_link{
-        color:#000;
+        color:#9C3940;
         font-size: 25px;
     }
     a.nav_link:hover {
-        color:#9C3940;
+        color:#FFCAB9;
         text-decoration: none;
         font-weight: bolder;
-      }
+    }
+    img {
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+    img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (max-width: 801px) {
