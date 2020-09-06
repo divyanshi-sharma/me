@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Nav} from 'react-bootstrap';
-import  Logo from '../imgs/selflogo2.png';
+import  Logo from '../imgs/selflogo4.png';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './header.css'
@@ -20,7 +20,7 @@ render(){
             <div className='header'>
                 <Row style={{overflowX:'hidden'}}>
                     <Col md = {3}>
-                        <a href='#/home'><img src={Logo} alt='logo' className='logo' style={{marginLeft:'-35%',width:'35%', height:'100%'}}/></a>
+                        <a href='#/home'><img src={Logo} alt='logo' className='logo' style={{marginLeft:'-35%',width:'45%', height:'100%', overflow:'hidden'}}/></a>
                     </Col>
                     <Col md={6}></Col>
                     <Col md = {1} style={{marginTop:'3vw', marginLeft:'75vw', position:'fixed'}}>  

@@ -1,19 +1,19 @@
-@media screen {
-    .bodyy {
-        overflow: hidden;
-        width: 100vw;
-    }
-    
+@media screen {    
     img {
-        max-width: 55%;
+        
         height: auto;
+        max-width: 55%;
       }
     .introSummary {
         background-color: #FFF7E9;
         font-family: PMingLiU-ExtB;
-        height: 500px;
+        height: 40vw;
         width: 100vw;
-        overflow: hidden;
+        overflow-x: hidden !important;
+        
+    }
+    body {
+      overflow-x: hidden;
     }
 
     .aboutMe {
@@ -21,13 +21,12 @@
         position: absolute;
         overflow: hidden;
         width: 100vw;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
 }
 a.nav_link{
     color:#000;
-    font-size: 25px;
 }
 a.nav_link:hover {
     color:#9C3940;

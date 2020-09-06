@@ -34,7 +34,7 @@ class Work extends Component {
                             </div>
                         </Col>
                         <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' href='/lura'>LURA</Nav.Link>
+                            <Nav.Link className='exTitle' href='#/lura'>LURA</Nav.Link>
                             <p style={{textAlign:'center'}}>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</p>
                         </Col>
                     </Row>
