@@ -3,6 +3,7 @@ import './home.css'
 import persImage from '../imgs/pinkishPhoto.JPG';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import {Nav} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 import Header from '../components/header'
 
@@ -37,23 +38,17 @@ render(){
                 <br></br>
                 Front-end Developer and Product Designer, with a focus in UX
                 <br></br>
-                Passionate about tech for social impact
-                <br></br>
-                <br></br>
-                <Button className='connectButton'
-                        style={{backgroundColor: this.state.bgColor}}
-                        href='#/play'>CONNECT WITH ME
-                </Button>
+                Passionate about tech for social impact          
                 </p>  
             </div>
 
 
             <div className='aboutMe' >
                     <Row style={{position:'static'}}>
-                        <Col xs = {6} style={{overflow:'hidden'}}>
+                        <Col xs = {6} >
                             <img src={persImage} alt='personalImage' style={{marginTop:'30px',width:'55%', height:'90%', overflow:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
-                        <Col xs = {5} style={{overflow:'hidden',marginTop:'4%'}}>
+                        <Col xs = {5} style={{marginTop:'4%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
                                 ABOUT ME
                             </h1>
@@ -62,10 +57,30 @@ render(){
                                 <br></br>
                                 In my free time, I love painting and reading! Check out <a className='nav_link' href='#/work'>Play</a> to see some of my paintings and recent reads.
                             </p>
+                            <Row style={{justifyContent:'center'}}>
+                                <Col md = {2}>
+                                    <Button className='connectButton'
+                                            style={{backgroundColor: this.state.bgColor}}
+                                            href='mailto: divyanshi@u.northwestern.edu'>Email
+                                    </Button>
+                                </Col>
+                                <Col md = {2}  style={{marginLeft:'-4%'}}>
+                                <Button className='connectButton'
+                                            style={{backgroundColor: this.state.bgColor}}
+                                            href='linkedin.com/in/divyanshi-sharma-629063195/'>LinkedIn
+                                    </Button>
+                                </Col>
+                                <Col md = {2}>
+                                    <Button className='connectButton'
+                                            style={{backgroundColor: this.state.bgColor}}
+                                            href='https://github.com/divyanshi-sharma'>Github
+                                    </Button>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
+                    
             </div>
-
 
         </div>
     )

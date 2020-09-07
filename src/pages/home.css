@@ -3,11 +3,12 @@
         
         height: auto;
         max-width: 55%;
+        max-height: 90%;
       }
     .introSummary {
         background-color: #FFF7E9;
         font-family: PMingLiU-ExtB;
-        height: 40vw;
+        height: 35vw;
         width: 100vw;
         overflow-x: hidden !important;
         
