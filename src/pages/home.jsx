@@ -67,7 +67,7 @@ render(){
                                 <Col md = {2}  style={{marginLeft:'-4%'}}>
                                 <Button className='connectButton'
                                             style={{backgroundColor: this.state.bgColor}}
-                                            href='linkedin.com/in/divyanshi-sharma-629063195/'>LinkedIn
+                                            href='https://linkedin.com/in/divyanshi-sharma-629063195/'>LinkedIn
                                     </Button>
                                 </Col>
                                 <Col md = {2}>
