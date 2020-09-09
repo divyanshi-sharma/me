@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './home.css'
-import persImage from '../imgs/pinkishPhoto.JPG';
+import persImage from '../imgs/squarePhoto.jpg';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import {Nav} from 'react-bootstrap';
@@ -46,9 +46,9 @@ render(){
             <div className='aboutMe' >
                     <Row style={{position:'static'}}>
                         <Col xs = {6} >
-                            <img src={persImage} alt='personalImage' style={{marginTop:'30px',width:'55%', height:'90%', overflow:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                            <img src={persImage} alt='personalImage' style={{borderRadius:'50%', marginTop:'30px', overflow:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                         </Col>
-                        <Col xs = {5} style={{marginTop:'4%'}}>
+                        <Col xs = {5} style={{marginTop:'2%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
                                 ABOUT ME
                             </h1>
@@ -77,6 +77,7 @@ render(){
                                     </Button>
                                 </Col>
                             </Row>
+                            <br></br><br></br>
                         </Col>
                     </Row>
                     
