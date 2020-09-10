@@ -14,6 +14,7 @@ class Work extends Component {
         return (
             <div className='body'>
                 <Header></Header>
+
                 <div className='bodyHeader' style={{position:'fixed'}}>
                     <p>WORK</p>
                 </div>
@@ -24,42 +25,32 @@ class Work extends Component {
                     </p>
                 </div>
             
-                <Container className='workExamples' style={{position:'relative', marginTop:'25vw'}}>
-                    <h1 className='uxTitle' style={{position:'relative'}}>UX AND DESIGN</h1>
+                <div className='workExamples' style={{position:'relative', marginTop:'25vw', justifyContent:'center'}}>
                     <br></br>
-                    <Row >
-                        <Col xs={8} style={{marginLeft:'75px'}}>
-                            <div className='lura'>
-                                <a href='#/lura'><img className='image' src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
-                            </div>
-                        </Col>
-                        <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' href='#/lura'>LURA</Nav.Link>
-                            <p style={{textAlign:'center'}}>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</p>
-                        </Col>
-                    </Row>
-                    <Row style={{marginTop:'50px'}}>
-                        <Col xs={8} style={{marginLeft:'75px'}}>
-                            <img src={Events} alt='eventsHome' style={{width:'100%', height:'90%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
-                        </Col>
-                        <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' href='/events' style={{marginTop:'4vw'}}>EVENTS</Nav.Link>
-                            <p style={{textAlign:'center'}}>Evanston Events is an app that was created for Google Developer Student Clubs. It serves as a place for students to find out about events in the area, and clubs and local businesses to advertise their events.</p>
-                        </Col>
-                    </Row>
+                    <h1 className='uxTitle' style={{position:'relative', marginLeft:'1%'}}>UX AND DESIGN</h1>
                     <br></br>
-                    <h1 className='frontendTitle' style={{position:'relative'}}>FRONTEND DEV</h1>
+                    <div className='lura'>
+                            <a href='#/lura'><img className='image' src={Lura} alt='LuraHomepage' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
+                            <div class="overlay">
+                                <Nav.Link className='exTitle' href='#/lura'>LURA</Nav.Link>Lura is a startup that uses an online platform to streamline the sourcing process for sustainable clothing production by digitizing the fashion industry for small brands and helping them rebuild their supply chain in an eco-friendly way.</div>
+                    </div>
                     <br></br>
-                    <Row style={{marginBottom:'50px'}}>
-                        <Col xs={8} style={{marginLeft:'75px'}}>
-                            <img src={FFH} alt='FarFromHome' style={{width:'100%', height:'100%', borderRadius:'4px', overflowX:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
-                        </Col>
-                        <Col xs={4} style={{marginLeft:'-200px'}}>
-                            <Nav.Link className='exTitle' >FAR FROM HOME</Nav.Link>
-                            <p style={{textAlign:'center'}}>Far From Home is a website made for COMP_SCI 330: Human Computer Interaction. It helps homesick freshmen feel better at school and stay connected to loved ones. </p>
-                        </Col>
-                    </Row>                    
-                </Container>
+                    <br></br>
+                    <div className='events'>
+                            <a href='#/lura'><img className='image' src={Events} alt='eventsHome' style={{width:'100%', height:'50%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
+                            <div class="overlay">
+                            <Nav.Link className='exTitle' href='#/lura'>EVANSTON EVENTS</Nav.Link>Evanston Events is an app that was created for Google Developer Student Clubs. It serves as a place for students to find out about events in the area, and clubs and local businesses to advertise their events.</div>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <h1 className='frontendTitle' style={{position:'relative'}}>FRONTEND DEV + DESIGN</h1>
+                    <br></br>
+                    <div className='ffh'>
+                            <a href='#/lura'><img className='image' src={FFH} alt='ffH' style={{width:'100%', height:'90%', borderRadius:'4px', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
+                            <div class="overlay">
+                            <Nav.Link className='exTitle' href='#/lura'>FAR FROM HOME</Nav.Link>Far From Home is a website made for COMP_SCI 330: Human Computer Interaction. It helps homesick freshmen feel better at school and stay connected to loved ones.</div>
+                    </div>               
+                </div>
                 <br></br>
                 
             </div>

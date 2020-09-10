@@ -2,6 +2,7 @@
     .body{
         background-color:#FFF7E9;
         width: 100vw;
+        height: 600px;
     }
     .bodyHeader {
         top: 125px;
@@ -25,14 +26,13 @@
         background-color:#FFF7E9;
         font-family: Niveau Grotesk;
         font-size: 20px;
-        text-align: left;
         height: 140vw;
     }
     .uxTitle {
         z-index: 1;
         position: relative;
         background-color: #FFF7E9;
-        text-align: left;
+        justify-items: center;
         font-family: Niveau Grotesk;
         font-size: 25px;
         font-weight: bolder;
@@ -41,11 +41,68 @@
         z-index: 1;
         position: relative;
         background-color: #FFF7E9;
-        text-align: left;
+        justify-items: center;
         font-family: Niveau Grotesk;
         font-size: 25px;
         font-weight: bolder;
-    }    
+    } 
+    .lura {
+        position: relative;
+        width: 100%;
+      }
+
+    .events {
+        position: relative;
+        width: 100%;
+      }
+    .ffh {
+        position: relative;
+        width: 100%;
+      }
+      
+    .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgba(255, 202, 185, .9); 
+        color: #f1f1f1; 
+        width: 55%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 22.5%;
+      }
+    .lura:hover .overlay {
+        opacity: 1;
+    } 
+    .lura:hover .image {
+        opacity: .5;
+    }  
+    .lura:hover {
+        transition: .5s ease;
+        transform: scale(1.1);
+    }
+    .events:hover .overlay {
+        opacity: 1;
+    } 
+    .events:hover .image {
+        opacity: .5;
+    } 
+    .events:hover {
+        transition: .5s ease;
+        transform: scale(1.1);
+    }
+    .ffh:hover .overlay {
+        opacity: 1;
+    } 
+    .ffh:hover .image {
+        opacity: .5;
+    } 
+    .ffh:hover {
+        transition: .5s ease;
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -99,7 +156,8 @@
 
 a.exTitle {
     text-align: center;
-    color: black;
+    color: white;
+    font-size:25px;
 }
 a.exTitle:hover {
     text-align: center;
