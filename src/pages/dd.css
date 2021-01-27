@@ -1,0 +1,23 @@
+body {
+    background-color:#FFF7E9;
+}
+.bodyHeader {
+    font-family: PMingLiU-ExtB;
+    background-color:#FFF7E9;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-case-study {
+    background-color:#FFF7E9;
+    z-index: 1;
+    font-family: PMingLiU-ExtB;
+    font-size: 20px;
+}
+.overview {
+    background-color:#FFF7E9;
+    font-family: PMingLiU-ExtB;
+    font-size: 20px;
+}
+    

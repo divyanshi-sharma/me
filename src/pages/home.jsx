@@ -46,37 +46,40 @@ render(){
             <div className='aboutMe' >
                     <Row style={{position:'static'}}>
                         <Col xs = {6} >
-                            <img src={persImage} alt='personalImage' style={{borderRadius:'50%', marginTop:'30px', overflow:'hidden', boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                            <img src={persImage} alt='personalImage' clasName='persimg' style={{borderRadius:'50%', marginTop:'30px', overflow:'hidden',  boxShadow: '13px 13px 20px #FFCAB9'}}/>
                         </Col>
                         <Col xs = {5} style={{marginTop:'2%'}}>
                             <h1 style={{fontFamily: 'PMingLiU-ExtB', opacity:'50%', textAlign: 'center', overflowX:'hidden'}}>
                                 ABOUT ME
                             </h1>
                             <p style={{fontSize:'20px', fontWeight:'lighter', fontFamily: 'Niveau Grotesk', textAlign: 'justify', overflowX:'hidden'}}>
-                                My full name is Divyanshi, but I go by Divya! I am deeply interested in using tech to make a social impact, and making sure tech is accessible for everyone. This has led me to UX design, frontend dev., and product design so that I can focus humans in designs. Head over to <a className='nav_link' href='#/work'>Work</a> to see what I've been up to!
+                                My full name is Divyanshi, but I go by Divya! I am deeply interested in using tech to make a social impact, and making sure tech is accessible for everyone. This has led me to UX design, frontend dev, and product design so that I can focus humans in designs. Head over to <a className='nav_link' href='#/work'>Work</a> to see what I've been up to!
                                 <br></br>
                                 In my free time, I love painting and reading! Check out <a className='nav_link' href='#/work'>Play</a> to see some of my paintings and recent reads.
                             </p>
-                            <Row style={{justifyContent:'center'}}>
-                                <Col md = {2}>
-                                    <Button className='connectButton'
-                                            style={{backgroundColor: this.state.bgColor}}
-                                            href='mailto: divyanshi@u.northwestern.edu'>Email
-                                    </Button>
-                                </Col>
-                                <Col md = {2}  style={{marginLeft:'-4%'}}>
+                            
+                            <span style={{justifyContent:'center'}}>
                                 <Button className='connectButton'
-                                            style={{backgroundColor: this.state.bgColor}}
-                                            href='https://linkedin.com/in/divyanshi-sharma-629063195/'>LinkedIn
-                                    </Button>
-                                </Col>
-                                <Col md = {2}>
-                                    <Button className='connectButton'
-                                            style={{backgroundColor: this.state.bgColor}}
-                                            href='https://github.com/divyanshi-sharma'>Github
-                                    </Button>
-                                </Col>
-                            </Row>
+                                        style={{backgroundColor: this.state.bgColor, marginRight:'2%'}}
+                                        href='mailto: divyanshi@u.northwestern.edu'>Email
+                                </Button>
+                                <Button className='connectButton'
+                                            style={{backgroundColor: this.state.bgColor, marginRight:'2%'}}
+                                            href='https://linkedin.com/in/divyanshi-sharma-629063195/'
+                                            target="_blank">LinkedIn
+                                </Button>
+                                <Button className='connectButton'
+                                            style={{backgroundColor: this.state.bgColor, marginRight:'2%'}}
+                                            href='https://drive.google.com/file/d/1I-zOuoboCBk6zNl4iVtgO9xHrV3NHKOv/view?usp=sharing'
+                                            target="_blank">Resume
+                                </Button>
+                                <Button className='connectButton'
+                                        style={{backgroundColor: this.state.bgColor}}
+                                        href='https://github.com/divyanshi-sharma'
+                                        target="_blank">Github
+                                </Button>
+                            </span>
+                            
                             <br></br><br></br>
                         </Col>
                     </Row>

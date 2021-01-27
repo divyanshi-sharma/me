@@ -12,6 +12,7 @@ export default class Header extends Component {
         this.state = {
             display: false, 
             autoplay: false,
+            work: false,
         }
     }
 

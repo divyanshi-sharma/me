@@ -1,0 +1,12 @@
+
+In general each function is checked against the solution on
+all trees of up to depth 2 containing either the values 0
+through 3 or the values 1 through 4, and 10000 trees of depth three containing the same values. When the `negate`
+function is tested the output is normalized so every node
+with a `0` value is a `positive-node`. For
+`positive-thinking` the input the test ensures that the weight
+of the tree is equal to the solutions weight, and that there are no
+`negative-leaf`s in the resulting tree.
+
+
+failure, ran (deep-balanced? (interior-node (negative-leaf 1) (positive-leaf 1))) expected #t got #f

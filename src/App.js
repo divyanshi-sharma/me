@@ -7,6 +7,7 @@ import Play from './pages/play';
 import Work from './pages/work';
 import Lura from './pages/lura';
 import Events from './pages/events';
+import DD from './pages/dd';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/work' component={Work}/>
         <Route exact path='/lura' component={Lura}/>
         <Route exact path='/events' component={Events}/>
+        <Route exact path='/discoverdesign' component={DD}/>
       </Switch>
     </div>
     </HashRouter>
